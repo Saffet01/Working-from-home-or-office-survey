@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section id="header">
+        <div class="bg-white text-center py-4 ">
+            <div class="container">
+                <h2 class="text-danger display-4 my-4">Working from Home or Office</h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="result d-none py-4 bg-white text-center">
+        <div class="container lead"> <!-- lead makes font size bigger. -->
+            <p><span class="text-danger display-4 p-3">0%</span>You want to go back to the Office.</p>
+        </div>
+    </div> 
+    
+    <section id="questions">
+        <div class="bg-secondary py-3">
+            <div class="container">
+                <form class="question-form text-white">
+                    <div class="my-5">
+                        <p>1. I'm working in office more efficient.</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" value="Y">
+                            <label class="form-check-label">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" value="N">
+                            <label class="form-check-label">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <p>2. I want to go back to the office full time.</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" value="Y">
+                            <label class="form-check-label">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" value="N">
+                            <label class="form-check-label">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <p>3. More difficult to solve technical problems when I am home.</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" value="Y">
+                            <label class="form-check-label">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" value="N">
+                            <label class="form-check-label">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <p>4. I have a hard time finishing homework in jira when I am at home.</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" value="Y">
+                            <label class="form-check-label">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" value="N">
+                            <label class="form-check-label">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-light">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="srk.js"></script>
+</body>
+
+</html>
