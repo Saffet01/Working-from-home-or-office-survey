@@ -1,4 +1,4 @@
-# HTML / CSS / Javascript
+# HTML / CSS / Bootstrap / Javascript
 
 A survey example with multiple radio buton and it calculates persentage of the two option office and home according to the choises.
 
